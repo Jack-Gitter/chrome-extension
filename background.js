@@ -23,6 +23,7 @@ chrome.runtime.onMessage.addListener(function(request, sender) {
     })
   } else {
     chrome.storage.local.set({"timeWordle": request.time})
+    console.log(chrome.storage.local.get())
     chrome.alarms.create('wordle', {
      when: Date.now() + timeToMillis(request.time),
      periodInMinutes: 1440
