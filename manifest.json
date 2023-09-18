@@ -1,16 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "Connections Extension",
+    "name": "NYT Game Streak Saver",
     "description": "Base Level Extension",
     "version": "1.0",
     "icons": {
-      "16": "connections.png",
-      "48": "connections.png",
-      "128": "connections.png"
+      "16": "bigbrain.png",
+      "48": "bigbrain.png",
+      "128": "bigbrain.png"
     },
     "action": {
       "default_popup": "hello.html",
-      "default_icon": "connections.png"
+      "default_icon": "bigbrain.png"
     },
     "background": {
       "service_worker": "background.js"
